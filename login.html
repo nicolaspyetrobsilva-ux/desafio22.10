@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    
+    <header>
+            <a href="index.html">Sair</a><hr>
+    </header>
+    <main>
+        <h1>Login</h1>
+        <button type="button" id="botao-entrar">Entrar</button><hr>    
+
+        <script>
+            console.log("Olá, mundo!");
+            const botao = document.querySelector("#botao-entrar");
+
+            botao.addEventListener("click", function() {
+                window.location.href = "usuario.html";
+            });
+        </script>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados </p>    
+    </footer>
+</body>
+</html>
